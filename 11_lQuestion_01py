@@ -1,0 +1,23 @@
+class Person:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __init__(self, name):
+        self.name = name
+        self.age = None
+
+    def __init__(self):
+        self.name = None
+        self.age = None
+
+    def display_info(self):
+        print(f"Name: {self.name}, Age: {self.age}")
+
+
+p1 = Person()
+p1.display_info()
+
+p2 = Person("Mawiya")
+p2.display_info()
