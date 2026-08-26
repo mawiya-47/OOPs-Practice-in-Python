@@ -37,6 +37,7 @@ elif choice == 2:
 
     r = Rectangle(color, length, breadth, filled)
     r.show_info()
+    
 
 elif choice == 3:
 
